@@ -1,0 +1,52 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/puchkovki/Documents/Github/puchkovki/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/puchkovki/Documents/Github/puchkovki/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.13.4
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/puchkovki/Documents/Github/puchkovki/workspace/projects/lab07/_builds/default`
+  `--`
+]
+[/home/puchkovki/Documents/Github/puchkovki/workspace/projects/lab07]> "cmake" "--build" "/home/puchkovki/Documents/Github/puchkovki/workspace/projects/lab07/_builds/default" "--"
+-- [polly] Used toolchain: Default
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/puchkovki/.hunter
+-- [hunter] [ Hunter-ID: 5659b15 | Toolchain-ID: 810fbc6 | Config-ID: 8a1641b ]
+-- [hunter] GTEST_ROOT: /home/puchkovki/.hunter/_Base/5659b15/810fbc6/8a1641b/Install (ver.: 1.10.0)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/puchkovki/Documents/Github/puchkovki/workspace/projects/lab07/_builds/default
+[ 50%] Built target print
+[100%] Built target demo
+Execute command: [
+  `ctest`
+]
+[/home/puchkovki/Documents/Github/puchkovki/workspace/projects/lab07/_builds/default]> "ctest"
+*********************************
+No test configuration file found!
+*********************************
+Usage
+
+  ctest [options]
+
