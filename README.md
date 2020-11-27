@@ -1,4 +1,4 @@
-## Laboratory work VII [![Build Status](https://travis-ci.com/puchkovki/lab07.svg?branch=master)](https://travis-ci.com/puchkovki/lab07)
+## Laboratory work VII [![Build Status](https://travis-ci.com/puchkovki/lab07-Hunter.svg?branch=master)](https://travis-ci.com/puchkovki/lab07-Hunter)
 
 Данная лабораторная работа посвещена изучению систем управления пакетами на примере **Hunter**
 
